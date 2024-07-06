@@ -22,5 +22,6 @@ urlpatterns = [
     path('',include('Users.urls')),
     path('',include('Tasks.urls')),
     path('',include('Kategori.urls')),
+    path('',include('Project.urls')),
 ]
 

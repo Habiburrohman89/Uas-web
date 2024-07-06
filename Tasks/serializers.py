@@ -6,4 +6,4 @@ class TugasSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Tugas
-        fields = ('id', 'judul', 'deskripsi', 'pembuat','assigned_to', 'tanggal_dibuat', 'batas_waktu')
+        fields = ('id', 'judul', 'deskripsi', 'pembuat','assigned_to', 'tanggal_dibuat', 'batas_waktu','kategori')

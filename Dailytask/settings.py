@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'Users',
     'Tasks',
     'Kategori',
+    'Project',
 ]
 
 MIDDLEWARE = [
